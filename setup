@@ -3,6 +3,7 @@ sudo apt update -y
 sudo apt install curl -y
 sudo apt install nodejs -y
 sudo apt install git -y
+sudo apt install npm -y
 git clone https://github.com/Vampire-Offical/awsworkshop.git
 cd awsworkshop
 npm i

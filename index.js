@@ -10,6 +10,6 @@ app.get('/', (req, res) => {
     res.send("Hello")
 })
 
-app.listen(5000, () => {
+app.listen(80, () => {
     console.log("sever is running on localhost:5000")
 })

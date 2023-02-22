@@ -1,0 +1,10 @@
+#!/bin/bash
+apt update -y
+apt install curl -y
+apt install nodejs -y
+apt install git -y
+git clone https://github.com/Vampire-Offical/awsworkshop.git
+cd awsworkshop
+npm i
+npm install -g pm2
+pm2 start --name 'awsworkshop' install.js

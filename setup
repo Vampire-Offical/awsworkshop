@@ -8,4 +8,4 @@ git clone https://github.com/Vampire-Offical/awsworkshop.git
 cd awsworkshop
 npm i
 sudo npm install -g pm2
-sudo pm2 start --name 'awsworkshop' install.js
+sudo pm2 start --name 'awsworkshop' index.js
